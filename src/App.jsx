@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Header /><br /><br /><br />
-      <TituloProblema />
+      <TituloProblema /><br /><br /><br />
       {/* Outros componentes ou conteúdo aqui */}
     </div>
   );
