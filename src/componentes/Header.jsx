@@ -1,37 +1,41 @@
 import React from 'react';
 
-const Header = () => {
-  return (
-    <header style={styles.header}>
-      <div style={styles.logo}>EcoLoja</div>
-      <a href="#" style={styles.login}>Login de Usuario</a>
-    </header>
-  );
-};
-
 const styles = {
   header: {
-    position: 'fixed',
-    top: 0,
-    width: '100%',
+    backgroundColor: '#e0f7e0', // Verde leve
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
     padding: '10px 20px',
-    backgroundColor: '#ccffcc', // Verde claro
+    position: 'fixed',
+    top: 0,
+    width: '100%',
     boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
-    zIndex: 1000, // Para garantir que o header fique acima de outros elementos
+    boxSizing: 'border-box',
   },
-  logo: {
-    color: '#006400', // Verde
-    fontSize: '24px',
-    fontWeight: 'bold',
+  text: {
+    color: '#006400', // Verde escuro para contraste
+    fontSize: '1.5em',
+    whiteSpace: 'nowrap',
   },
-  login: {
-    color: '#006400', // Verde
-    fontSize: '18px',
-    textDecoration: 'none', // Sem sublinhado
+  link: {
+    color: '#006400', // Verde escuro para contraste
+    textDecoration: 'none',
+    fontSize: '1.5em',
   },
+};
+
+const Header = () => {
+  return (
+    <header style={styles.header}>
+      <div style={styles.text}>
+        EcoLoja
+      </div>
+      <a href="/login" style={styles.link}>
+        Login de Usuário
+      </a>
+    </header>
+  );
 };
 
 export default Header;
