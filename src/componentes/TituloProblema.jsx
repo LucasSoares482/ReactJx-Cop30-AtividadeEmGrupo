@@ -73,7 +73,7 @@ const TituloProblema = () => {
         Oque procuramos solucionar?
         <div style={squaresContainerStyle}>
           <div style={squareStyle}>
-            <img src="https://blog.centrodeelearning.com/wp-content/uploads/2020/06/residuos_solidos.jpg" alt="Imagem 1" style={imageStyle} />
+            <img src="imagem1.png" alt="Imagem 1" style={imageStyle} />
             <p style={textStyle}>Redução de Resíduos</p>
           </div>
           <div style={squareStyle}>
