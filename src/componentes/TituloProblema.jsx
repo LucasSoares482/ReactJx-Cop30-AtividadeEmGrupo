@@ -73,20 +73,20 @@ const TituloProblema = () => {
         Oque procuramos solucionar?
         <div style={squaresContainerStyle}>
           <div style={squareStyle}>
-            <img src="imagem1.png" alt="Imagem 1" style={imageStyle} />
+            <img src="../src/imagens/imagem1.png" alt="Imagem 1" style={imageStyle} />
             <p style={textStyle}>Redução de Resíduos</p>
           </div>
           <div style={squareStyle}>
-            <img src="imagem2.png" alt="Imagem 2" style={imageStyle} />
-            <p style={textStyle}>Texto 2</p>
+            <img src="../src/imagens/imagem2.png" alt="Imagem 2" style={imageStyle} />
+            <p style={textStyle}>Diminuição da Poluição</p>
           </div>
           <div style={squareStyle}>
-            <img src="imagem3.png" alt="Imagem 3" style={imageStyle} />
-            <p style={textStyle}>Texto 3</p>
+            <img src="../src/imagens/imagem3.png" alt="Imagem 3" style={imageStyle} />
+            <p style={textStyle}>Conservação de Recursos Naturais</p>
           </div>
           <div style={squareStyle}>
-            <img src="imagem4.png" alt="Imagem 4" style={imageStyle} />
-            <p style={textStyle}>Texto 4</p>
+            <img src="../src/imagens/imagem4.png" alt="Imagem 4" style={imageStyle} />
+            <p style={textStyle}>Educação e Conscientização</p>
           </div>
         </div>
       </div>
