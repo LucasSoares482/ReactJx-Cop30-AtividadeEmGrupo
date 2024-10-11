@@ -8,7 +8,6 @@ function App() {
   return (
     <div>
       <Header /><br /><br /><br /><br />
-      <h1>atualização</h1>
       <TituloProblema /><br /><br /><br />
       <ProductCatalog/><br /><br /><br />
       <FeatureMembro/>
