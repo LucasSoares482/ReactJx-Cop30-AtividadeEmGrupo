@@ -10,7 +10,7 @@ function App() {
       <Header /><br /><br /><br /><br />
       <TituloProblema /><br /><br /><br />
       <ProductCatalog/><br /><br /><br />
-      <FeatureMembro/>
+      <FeatureMembro/><br /><br /><br />
       {/* Outros componentes ou conteúdo aqui */}
     </div>
   );
