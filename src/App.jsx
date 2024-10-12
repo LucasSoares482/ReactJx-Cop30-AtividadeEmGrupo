@@ -10,7 +10,6 @@ function App() {
   return (
     <div>
       <Header /><br /><br /><br />
-      <h1>branch Lucas</h1>
       <Cop30NossoSite/><br /><br />
       <QuemSomos/><br /><br /><br />
       <EcoLoja /><br /><br /><br />
