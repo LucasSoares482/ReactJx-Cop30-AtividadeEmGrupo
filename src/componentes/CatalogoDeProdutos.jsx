@@ -54,7 +54,7 @@ const textAreas = [
   'Produtos alimentícios ecológicos são aqueles cultivados ou produzidos de forma natural, sem o uso de agrotóxicos, fertilizantes químicos e organismos geneticamente modificados (OGMs). Priorizam práticas agrícolas sustentáveis, que respeitam o meio ambiente e a saúde humana.',
 ];
 
-const ProductCatalog = () => {
+const CatalogoDeProdutos = () => {
   return (
     <div style={{ padding: '20px', backgroundColor: '#f0f0f0' }}>
       <h2>Produto do Mês</h2>
@@ -107,4 +107,4 @@ const ProductCatalog = () => {
   );
 };
 
-export default ProductCatalog;
+export default CatalogoDeProdutos;

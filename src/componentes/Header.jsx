@@ -12,6 +12,7 @@ const styles = {
     width: '100%',
     boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
     boxSizing: 'border-box',
+    zIndex: '1000', // Garante que o header esteja sobre os cards
   },
   textContainer: {
     display: 'flex',

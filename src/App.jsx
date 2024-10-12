@@ -1,19 +1,19 @@
 import React from 'react';
 import Header from './componentes/Header';
-import TituloProblema from './componentes/TituloProblema';
-import FeatureMembro from './componentes/FeatureMembro';
-import ProductCatalog from './componentes/ProductCatalog';
-import Cop30 from './componentes/Cop30';
+import EcoLoja from './componentes/EcoLoja';
+import QuemSomos from './componentes/QuemSomos';
+import CatalogoDeProdutos from './componentes/CatalogoDeProdutos';
+import Cop30NossoSite from './componentes/Cop30NossoSite';
 import Banner from './componentes/Banner';
 
 function App() {
   return (
     <div>
-      <Header /><br /><br /><br /><br />
-      <TituloProblema /><br /><br /><br />
-      <FeatureMembro/><br /><br /><br />
-      <Cop30/><br /><br /><br /><br />
-      <ProductCatalog/>
+      <Header /><br /><br /><br />
+      <Cop30NossoSite/><br /><br />
+      <QuemSomos/><br /><br /><br />
+      <EcoLoja /><br /><br /><br />
+      <CatalogoDeProdutos/>
       <Banner /><br /><br />
       {/* Outros componentes ou conteúdo aqui */}
     </div>
