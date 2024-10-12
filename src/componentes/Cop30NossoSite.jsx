@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Cop30 = () => {
+const Cop30NossoSite = () => {
   return (
     <div style={styles.container}>
       <h2 style={styles.cop30Title}>Cop30 e nosso site</h2>
       <div style={styles.greenBox}>
-        <p style={styles.greenBoxText}>As Conferências das Partes (COPs) são eventos cruciais para a discussão e implementação de políticas globais relacionadas às mudanças climáticas. Para uma EcoLoja, que se posiciona como um negócio comprometido com a sustentabilidade, acompanhar e participar indiretamente desses eventos é fundamental por diversos motivos</p>
+        <p style={styles.greenBoxText}>As Conferências das Partes (COPs) são eventos cruciais para a discussão e implementação de políticas globais relacionadas às mudanças climáticas. Para a EcoLoja, que se posiciona como um negócio comprometido com a sustentabilidade, acompanhar e participar indiretamente desses eventos é fundamental por diversos motivos</p>
       </div>
     </div>
   );
@@ -41,4 +41,4 @@ const styles = {
   },
 };
 
-export default Cop30;
+export default Cop30NossoSite;
