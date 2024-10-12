@@ -50,20 +50,31 @@ const products = [
 
 const textAreas = [
   'Produtos cometicos cruelty-free são aqueles que não foram testados em animais em nenhuma etapa de sua produção. Isso significa que desde a criação da fórmula até o produto final, nenhum animal foi submetido a testes para verificar a segurança ou eficácia do produto.',
-
   'A escolha entre fertilizantes ecológicos e não ecológicos depende de diversos fatores, como o tipo de cultivo, as características do solo e os objetivos do produtor. Os fertilizantes ecológicos oferecem uma alternativa mais sustentável e saudável, promovendo a saúde do solo e a qualidade dos alimentos. No entanto, os fertilizantes sintéticos ainda são amplamente utilizados devido à sua eficiência a curto prazo.',
-
   'Produtos alimentícios ecológicos são aqueles cultivados ou produzidos de forma natural, sem o uso de agrotóxicos, fertilizantes químicos e organismos geneticamente modificados (OGMs). Priorizam práticas agrícolas sustentáveis, que respeitam o meio ambiente e a saúde humana.',
 ];
 
 const ProductCatalog = () => {
   return (
     <div style={{ padding: '20px', backgroundColor: '#f0f0f0' }}>
-      <h2>Alguns Produtos</h2>
+      <h2>Produto do Mês</h2>
       <hr />
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
         {products.map((product, index) => (
           <React.Fragment key={product.id}>
+            {(index + 1) % 3 === 1 && (
+              <div
+                style={{
+                  width: '100%',
+                  padding: '10px',
+                  backgroundColor: '#d0d0d0',
+                  textAlign: 'center',
+                  marginBottom: '20px',
+                }}
+              >
+                <p>{textAreas[Math.floor((index + 1) / 3)]}</p>
+              </div>
+            )}
             <div
               style={{
                 display: 'flex',
@@ -89,19 +100,6 @@ const ProductCatalog = () => {
                 {product.description}
               </div>
             </div>
-            {(index + 1) % 3 === 0 && (
-              <div
-                style={{
-                  width: '100%',
-                  padding: '10px',
-                  backgroundColor: '#d0d0d0',
-                  textAlign: 'center',
-                  marginBottom: '20px',
-                }}
-              >
-                <p>{textAreas[(index + 1) / 3 - 1]}</p>
-              </div>
-            )}
           </React.Fragment>
         ))}
       </div>
