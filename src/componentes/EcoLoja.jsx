@@ -15,7 +15,7 @@ const EcoLoja = () => {
               <div className="card-image">
                 <img src="../src/imagens/imagem1.png" alt="Imagem 1" style={styles.image}/>
                 <span className="card-title" style={styles.cardTitle}>Resíduos</span>
-                <a className="btn-floating btn-medium halfway-fab waves-effect waves-light red" style={styles.floatingBtn}><i className="material-icons">eco</i></a>
+                <a href="https://marcaambiental.com.br/residuos-solidos-urbanos-como-impactam-o-meio-ambiente/" className="btn-floating btn-medium halfway-fab waves-effect waves-light green" style={styles.floatingBtn}><i className="material-icons">eco</i></a>
               </div>
               <div className="card-content">
                 <p>Redução de Resíduos poluentes.</p>
@@ -27,7 +27,7 @@ const EcoLoja = () => {
               <div className="card-image">
                 <img src="../src/imagens/imagem2.png" alt="Imagem 2" style={styles.image}/>
                 <span className="card-title" style={styles.cardTitle}>Poluição</span>
-                <a className="btn-floating btn-medium halfway-fab waves-effect waves-light red" style={styles.floatingBtn}><i className="material-icons">eco</i></a>
+                <a href="https://www.todamateria.com.br/poluicao/" className="btn-floating btn-medium halfway-fab waves-effect waves-light green" style={styles.floatingBtn}><i className="material-icons">eco</i></a>
               </div>
               <div className="card-content">
                 <p>Diminuição da Poluição</p>
@@ -39,7 +39,7 @@ const EcoLoja = () => {
               <div className="card-image">
                 <img src="../src/imagens/imagem3.png" alt="Imagem 3" style={styles.image}/>
                 <span className="card-title" style={styles.cardTitle}>Conservação de Recursos</span>
-                <a className="btn-floating btn-medium halfway-fab waves-effect waves-light red" style={styles.floatingBtn}><i className="material-icons">eco</i></a>
+                <a href="https://www.ideiasinteligentes.com/meio-ambiente/conservacao-dos-recursos-naturais-conceito-importancia-e-acoes/" className="btn-floating btn-medium halfway-fab waves-effect waves-light green" style={styles.floatingBtn}><i className="material-icons">eco</i></a>
               </div>
               <div className="card-content">
                 <p>Conservação de Recursos Naturais</p>
@@ -51,7 +51,7 @@ const EcoLoja = () => {
               <div className="card-image">
                 <img src="../src/imagens/imagem4.png" alt="Imagem 4" style={styles.image}/>
                 <span className="card-title" style={styles.cardTitle}>Educação</span>
-                <a className="btn-floating btn-medium halfway-fab waves-effect waves-light red" style={styles.floatingBtn}><i className="material-icons">eco</i></a>
+                <a href="https://meiosustentavel.com.br/educacao-ambiental/" className="btn-floating btn-medium halfway-fab waves-effect waves-light green" style={styles.floatingBtn}><i className="material-icons">eco</i></a>
               </div>
               <div className="card-content">
                 <p>Educação e Conscientização</p>
@@ -106,8 +106,8 @@ const styles = {
     bottom: '10px',
   },
   cardTitle: {
-    color: '#ffffff', // Cor branca para melhor contraste
-    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)', // Sombra para destacar o texto
+    color: '#ffffff',
+    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)',
   },
 };
 
