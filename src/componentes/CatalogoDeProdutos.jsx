@@ -57,7 +57,7 @@ const textAreas = [
 const CatalogoDeProdutos = () => {
   return (
     <div style={{ padding: '20px', backgroundColor: '#f0f0f0' }}>
-      <h2>Produto do Mês</h2>
+      <h2>Produtos do Mês</h2>
       <hr />
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
         {products.map((product, index) => (
