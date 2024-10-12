@@ -13,7 +13,7 @@ function App() {
       <TituloProblema /><br /><br /><br />
       <FeatureMembro/><br /><br /><br />
       <Cop30/><br /><br /><br /><br />
-      <ProductCatalog/><br /><br /><br />
+      <ProductCatalog/>
       <Banner /><br /><br />
       {/* Outros componentes ou conteúdo aqui */}
     </div>
