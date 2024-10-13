@@ -12,24 +12,29 @@ const QuemSomos = () => {
         <hr />
         <div style={styles.squaresContainer}>
           <div style={styles.square}>
-            <img src="../src/imagens/memebro1.png" alt="Imagem 1" style={styles.image} />
-            <p style={styles.text}>Colocar nome e matrícula do membro</p>
+            <img src="../src/imagens/Membro 1.jpeg" alt="Membro 1" style={styles.image} />
+            <p style={styles.text}>Lucas Soares dos Santos<br></br>
+            Matrícula: 04117259</p>
           </div>
           <div style={styles.square}>
-            <img src="../src/imagens/memebro2.png" alt="Imagem 2" style={styles.image} />
-            <p style={styles.text}>Colocar nome e matrícula do membro</p>
+            <img src="../src/imagens/Membro 2.jpeg" alt="Membro 2" style={styles.image} />
+            <p style={styles.text}>Caique Rabelo Neves<br></br>
+            Matrícula: 04105419</p>
           </div>
           <div style={styles.square}>
-            <img src="../src/imagens/memebro3.png" alt="Imagem 3" style={styles.image} />
-            <p style={styles.text}>Colocar nome e matrícula do membro</p>
+            <img src="../src/imagens/Membro 3.jpeg" alt="Membro 3" style={styles.image} />
+            <p style={styles.text}>Paulo Sérgio Monteiro<br></br>
+            Matrícula: 04173771</p>
           </div>
           <div style={styles.square}>
-            <img src="../src/imagens/memebro4.png" alt="Imagem 4" style={styles.image} />
-            <p style={styles.text}>Colocar nome e matrícula do membro</p>
+            <img src="../src/imagens/Membro 4.jpeg" alt="Membro 4" style={styles.image} />
+            <p style={styles.text}>Raimundo Nonato Barroso<br></br>
+            Matrícula: 04162356</p>
           </div>
           <div style={styles.square}>
-            <img src="../src/imagens/memebro5.png" alt="Imagem 4" style={styles.image} />
-            <p style={styles.text}>Colocar nome e matrícula do membro</p>
+            <img src="../src/imagens/Membro 5.jpeg" alt="Membro 5" style={styles.image} />
+            <p style={styles.text}>Raul Gabriel Carneiro<br></br>
+            Matrícula: 04150573</p>
           </div>
         </div>
         <br /><br />
@@ -60,7 +65,7 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     backgroundColor: '#e0f2e9',
-    padding: '20px',
+    padding: '10px',
     borderRadius: '10px',
     width: '80%',
     margin: '0 auto',
