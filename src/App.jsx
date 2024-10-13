@@ -16,7 +16,7 @@ function App() {
       <EcoLoja /><br /><br /><br />
       <CatalogoDeProdutos/>
       <Banner /><br /><br />
-      {/* Outros componentes ou conteúdo aqui */}
+      <BouncingDiv /><br /><br /><br />
     </div>
   );
 }
@@ -40,13 +40,4 @@ const BouncingDiv = styled.div`
   border-radius: 5px;
   animation: ${bounce} 2s infinite;
 `;
-
-function App() {
-  return (
-    <div className="App">
-      <BouncingDiv>Salte!</BouncingDiv>
-    </div>
-  );
-}
-
 export default App;
