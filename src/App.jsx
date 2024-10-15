@@ -5,6 +5,7 @@ import QuemSomos from './componentes/QuemSomos';
 import CatalogoDeProdutos from './componentes/CatalogoDeProdutos';
 import Cop30NossoSite from './componentes/Cop30NossoSite';
 import Banner from './componentes/Banner';
+import Footer from './componentes/footer';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <QuemSomos/><br /><br /><br />
       <EcoLoja /><br /><br /><br />
       <CatalogoDeProdutos/>
-      <Banner /><br /><br />
+      <Banner /><br /><br /><br />
+      <Footer/>
       {/* Outros componentes ou conteúdo aqui */}
     </div>
   );

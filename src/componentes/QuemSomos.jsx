@@ -14,70 +14,50 @@ const QuemSomos = () => {
           <div className="col s12 m6">
             <div className="card">
               <div className="card-image">
-                <img src="../src/imagens/memebro1.png" alt="Imagem 1" />
-                <span className="card-title">Nome e Matrícula do Membro</span>
+                <img src="../src/imagens/membro1.jpg" alt="Imagem 1" />
               </div>
               <div className="card-content">
                 <p>Colocar nome e matrícula do membro.</p>
-              </div>
-              <div className="card-action">
-                <a href="#">Este é um link</a>
               </div>
             </div>
           </div>
           <div className="col s12 m6">
             <div className="card">
               <div className="card-image">
-                <img src="../src/imagens/memebro2.png" alt="Imagem 2" />
-                <span className="card-title">Nome e Matrícula do Membro</span>
+                <img src="../src/imagens/membro2.jpg" alt="Imagem 2" />
               </div>
               <div className="card-content">
-                <p>Colocar nome e matrícula do membro.</p>
-              </div>
-              <div className="card-action">
-                <a href="#">Este é um link</a>
+                <p>Lucas Soares dos Santos</p>
               </div>
             </div>
           </div>
           <div className="col s12 m6">
             <div className="card">
               <div className="card-image">
-                <img src="../src/imagens/memebro3.png" alt="Imagem 3" />
-                <span className="card-title">Nome e Matrícula do Membro</span>
+                <img src="../src/imagens/membro3.jpg" alt="Imagem 3" />
               </div>
               <div className="card-content">
-                <p>Colocar nome e matrícula do membro.</p>
-              </div>
-              <div className="card-action">
-                <a href="#">Este é um link</a>
+                <p>Paulo Sergio Monteiro Lopes Filho 04173731</p>
               </div>
             </div>
           </div>
           <div className="col s12 m6">
             <div className="card">
               <div className="card-image">
-                <img src="../src/imagens/memebro4.png" alt="Imagem 4" />
-                <span className="card-title">Nome e Matrícula do Membro</span>
+                <img src="../src/imagens/membro4.jpg" alt="Imagem 4" />
               </div>
               <div className="card-content">
-                <p>Colocar nome e matrícula do membro.</p>
-              </div>
-              <div className="card-action">
-                <a href="#">Este é um link</a>
+                <p>Raimundo Nonato barroso felicio da silva 04162356</p>
               </div>
             </div>
           </div>
           <div className="col s12 m6">
             <div className="card">
               <div className="card-image">
-                <img src="../src/imagens/memebro5.png" alt="Imagem 5" />
-                <span className="card-title">Nome e Matrícula do Membro</span>
+                <img src="../src/imagens/membro5.jpg" alt="Imagem 5" />
               </div>
               <div className="card-content">
-                <p>Colocar nome e matrícula do membro.</p>
-              </div>
-              <div className="card-action">
-                <a href="#">Este é um link</a>
+                <p>Raul Gabriel Carneiro Oliveira 04150573</p>
               </div>
             </div>
           </div>
@@ -85,7 +65,7 @@ const QuemSomos = () => {
         <br /><br />
         Features Futuras!
         <hr />
-        <div className="row">
+        <div className="row" style={{ justifyContent: 'center' }}>
           <div className="col s12 m5">
             <div className="card-panel teal">
               <span className="white-text"><strong><u>Seção de Blog:</u> Compartilhar artigos sobre sustentabilidade, dicas de vida ecológica e novidades da EcoLoja.</strong></span>
