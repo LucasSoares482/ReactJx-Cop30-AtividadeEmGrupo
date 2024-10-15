@@ -17,7 +17,7 @@ const QuemSomos = () => {
                 <img src="../src/imagens/membro1.jpg" alt="Imagem 1" />
               </div>
               <div className="card-content">
-                <p>Colocar nome e matrícula do membro.</p>
+                <p>Lucas Soares dos Santos 04117259</p>
               </div>
             </div>
           </div>
@@ -27,7 +27,7 @@ const QuemSomos = () => {
                 <img src="../src/imagens/membro2.jpg" alt="Imagem 2" />
               </div>
               <div className="card-content">
-                <p>Lucas Soares dos Santos</p>
+                <p>Caique Rabelo Neves 04105419</p>
               </div>
             </div>
           </div>
