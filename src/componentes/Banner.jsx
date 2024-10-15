@@ -1,5 +1,4 @@
 import React from 'react';
-import './Banner.css'; // Importa o arquivo de estilos CSS
 
 function Banner() {
   return (
