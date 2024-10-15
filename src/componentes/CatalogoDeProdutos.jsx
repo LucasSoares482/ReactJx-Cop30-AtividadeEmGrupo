@@ -1,51 +1,15 @@
 import React from 'react';
 
 const products = [
-  {
-    id: 1,
-    image: '../src/imagens/produto1.png',
-    description: 'Ekos Murumuru: Hidratação profunda para pele e cabelos, com manteiga de murumuru.',
-  },
-  {
-    id: 2,
-    image: '../src/imagens/produto2.png',
-    description: 'Ekos Castanha: Revitaliza e energiza os cabelos, com óleo de castanha',
-  },
-  {
-    id: 3,
-    image: '../src/imagens/produto3.png',
-    description: 'Ekos Buriti: Ilumina a pele e os cabelos, com óleo de buriti.',
-  },
-  {
-    id: 4,
-    image: '../src/imagens/produto4.png',
-    description: 'Esterco de galinha como fertilizante',
-  },
-  {
-    id: 5,
-    image: '../src/imagens/produto5.png',
-    description: 'Humus de minhoca em um recipiente (fertilizante)',
-  },
-  {
-    id: 6,
-    image: '../src/imagens/produto6.png',
-    description: 'Pó de leonardita (fertilizante)',
-  },
-  {
-    id: 7,
-    image: '../src/imagens/produto7.png',
-    description: 'variedade de frutas e legumes orgânicos.',
-  },
-  {
-    id: 8,
-    image: '../src/imagens/produto8.png',
-    description: 'grãos e leguminosas em um pote de vidro.',
-  },
-  {
-    id: 9,
-    image: '../src/imagens/produto9.png',
-    description: 'Canudo de Bambu Reutilizável.',
-  },
+  { id: 1, image: '../src/imagens/produto1.png', description: 'Ekos Murumuru: Hidratação profunda para pele e cabelos, com manteiga de murumuru.', price: 'R$ 150' },
+  { id: 2, image: '../src/imagens/produto2.png', description: 'Ekos Castanha: Revitaliza e energiza os cabelos, com óleo de castanha', price: 'R$ 120' },
+  { id: 3, image: '../src/imagens/produto3.png', description: 'Ekos Buriti: Ilumina a pele e os cabelos, com óleo de buriti.', price: 'R$ 130' },
+  { id: 4, image: '../src/imagens/produto4.png', description: 'Esterco de galinha como fertilizante', price: 'R$ 50' },
+  { id: 5, image: '../src/imagens/produto5.png', description: 'Humus de minhoca em um recipiente (fertilizante)', price: 'R$ 40' },
+  { id: 6, image: '../src/imagens/produto6.png', description: 'Pó de leonardita (fertilizante)', price: 'R$ 60' },
+  { id: 7, image: '../src/imagens/produto7.png', description: 'Variedade de frutas e legumes orgânicos.', price: 'R$ 200' },
+  { id: 8, image: '../src/imagens/produto8.png', description: 'Grãos e leguminosas em um pote de vidro.', price: 'R$ 80' },
+  { id: 9, image: '../src/imagens/produto9.png', description: 'Canudo de Bambu Reutilizável.', price: 'R$ 10' },
 ];
 
 const textAreas = [
@@ -78,6 +42,8 @@ const CatalogoDeProdutos = () => {
             <div
               style={{
                 display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
                 border: '1px solid #ccc',
                 padding: '10px',
                 width: '30%',
@@ -93,12 +59,18 @@ const CatalogoDeProdutos = () => {
                   width: '150px',
                   height: '150px',
                   objectFit: 'cover',
-                  marginRight: '10px',
+                  marginBottom: '10px',
                 }}
               />
-              <div style={{ display: 'flex', alignItems: 'center' }}>
+              <div style={{ textAlign: 'center', marginBottom: '10px' }}>
                 {product.description}
               </div>
+              <div style={{ textAlign: 'center', fontWeight: 'bold', marginBottom: '10px' }}>
+                {product.price}
+              </div>
+              <a className="waves-effect waves-light btn-small">
+                <i className="material-icons left">shopping_cart</i>Adicionar ao Carrinho
+              </a>
             </div>
           </React.Fragment>
         ))}

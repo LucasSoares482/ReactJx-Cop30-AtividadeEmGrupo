@@ -10,43 +10,81 @@ const QuemSomos = () => {
       <div style={styles.problem}>
         Nossa Equipe
         <hr />
-        <div style={styles.squaresContainer}>
-          <div style={styles.square}>
-            <img src="../src/imagens/memebro1.png" alt="Imagem 1" style={styles.image} />
-            <p style={styles.text}>Colocar nome e matrícula do membro</p>
+        <div className="row">
+          <div className="col s12 m6">
+            <div className="card">
+              <div className="card-image">
+                <img src="../src/imagens/membro1.jpg" alt="Imagem 1" />
+              </div>
+              <div className="card-content">
+                <p>Colocar nome e matrícula do membro.</p>
+              </div>
+            </div>
           </div>
-          <div style={styles.square}>
-            <img src="../src/imagens/memebro2.png" alt="Imagem 2" style={styles.image} />
-            <p style={styles.text}>Colocar nome e matrícula do membro</p>
+          <div className="col s12 m6">
+            <div className="card">
+              <div className="card-image">
+                <img src="../src/imagens/membro2.jpg" alt="Imagem 2" />
+              </div>
+              <div className="card-content">
+                <p>Lucas Soares dos Santos</p>
+              </div>
+            </div>
           </div>
-          <div style={styles.square}>
-            <img src="../src/imagens/memebro3.png" alt="Imagem 3" style={styles.image} />
-            <p style={styles.text}>Colocar nome e matrícula do membro</p>
+          <div className="col s12 m6">
+            <div className="card">
+              <div className="card-image">
+                <img src="../src/imagens/membro3.jpg" alt="Imagem 3" />
+              </div>
+              <div className="card-content">
+                <p>Paulo Sergio Monteiro Lopes Filho 04173731</p>
+              </div>
+            </div>
           </div>
-          <div style={styles.square}>
-            <img src="../src/imagens/memebro4.png" alt="Imagem 4" style={styles.image} />
-            <p style={styles.text}>Colocar nome e matrícula do membro</p>
+          <div className="col s12 m6">
+            <div className="card">
+              <div className="card-image">
+                <img src="../src/imagens/membro4.jpg" alt="Imagem 4" />
+              </div>
+              <div className="card-content">
+                <p>Raimundo Nonato barroso felicio da silva 04162356</p>
+              </div>
+            </div>
           </div>
-          <div style={styles.square}>
-            <img src="../src/imagens/memebro5.png" alt="Imagem 4" style={styles.image} />
-            <p style={styles.text}>Colocar nome e matrícula do membro</p>
+          <div className="col s12 m6">
+            <div className="card">
+              <div className="card-image">
+                <img src="../src/imagens/membro5.jpg" alt="Imagem 5" />
+              </div>
+              <div className="card-content">
+                <p>Raul Gabriel Carneiro Oliveira 04150573</p>
+              </div>
+            </div>
           </div>
         </div>
         <br /><br />
         Features Futuras!
         <hr />
-        <div style={styles.squaresContainer}>
-          <div style={styles.square}>
-            <p style={styles.text}><strong><u>Seção de Blog:</u>Compartilhar artigos sobre sustentabilidade, dicas de vida ecológica e novidades da EcoLoja.</strong></p>
+        <div className="row" style={{ justifyContent: 'center' }}>
+          <div className="col s12 m5">
+            <div className="card-panel teal">
+              <span className="white-text"><strong><u>Seção de Blog:</u> Compartilhar artigos sobre sustentabilidade, dicas de vida ecológica e novidades da EcoLoja.</strong></span>
+            </div>
           </div>
-          <div style={styles.square}>
-            <p style={styles.text}><strong><u>Reviews de Clientes:</u> Permitir que clientes deixem feedback sobre os produtos ecológicos, promovendo confiança e transparência.</strong></p>
+          <div className="col s12 m5">
+            <div className="card-panel teal">
+              <span className="white-text"><strong><u>Reviews de Clientes:</u> Permitir que clientes deixem feedback sobre os produtos ecológicos, promovendo confiança e transparência.</strong></span>
+            </div>
           </div>
-          <div style={styles.square}>
-            <p style={styles.text}><strong><u>Certificações e Transparência:</u> Mostrar claramente as certificações ecológicas dos produtos e os processos de fabricação.</strong></p>
+          <div className="col s12 m5">
+            <div className="card-panel teal">
+              <span className="white-text"><strong><u>Certificações e Transparência:</u> Mostrar claramente as certificações ecológicas dos produtos e os processos de fabricação.</strong></span>
+            </div>
           </div>
-          <div style={styles.square}>
-            <p style={styles.text}><strong><u>Marketplace de Troca:</u> Facilitar a troca de produtos entre clientes, promovendo a reutilização e a economia circular.</strong></p>
+          <div className="col s12 m5">
+            <div className="card-panel teal">
+              <span className="white-text"><strong><u>Marketplace de Troca:</u> Facilitar a troca de produtos entre clientes, promovendo a reutilização e a economia circular.</strong></span>
+            </div>
           </div>
         </div>
       </div>
@@ -85,31 +123,6 @@ const styles = {
     width: '100%',
     textAlign: 'center',
     marginBottom: '20px',
-  },
-  squaresContainer: {
-    display: 'flex',
-    justifyContent: 'space-around',
-    marginTop: '20px',
-  },
-  square: {
-    backgroundColor: '#4da64d',
-    width: '200px',
-    height: '200px',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    borderRadius: '10px',
-    padding: '10px',
-  },
-  image: {
-    width: '80px',
-    height: '80px',
-    marginBottom: '10px',
-  },
-  text: {
-    color: '#ffffff',
-    textAlign: 'center',
   },
 };
 
