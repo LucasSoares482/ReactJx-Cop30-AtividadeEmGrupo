@@ -5,7 +5,7 @@ import QuemSomos from './componentes/QuemSomos';
 import CatalogoDeProdutos from './componentes/CatalogoDeProdutos';
 import Cop30NossoSite from './componentes/Cop30NossoSite';
 import Banner from './componentes/Banner';
-import Footer from './componentes/footer';
+import Footer from './componentes/Footer';
 
 function App() {
   return (
